@@ -17,25 +17,27 @@
 </head>
 
 <body>
-  <header>
-    <h1 class="text-center">EasyShop</h1>
-  </header>
-  <main class="main">
-    <nav class="container navbar navbar-light bg-dark rounded w-50 mb-5">
+  <!-- header section -->
+  <header class="nav-bg mb-5 p-3">
+    <nav class="container navbar navbar-light bg-dark rounded">
       <div class="container-fluid">
-        <a class="navbar-brand text-light fw-bolder">Welcome to <span class="text-info">EasyShop</span></a>
+        <a class="navbar-brand text-light fs-3 fw-bold">EasyShop</a>
         <form class="d-flex">
-          <input  class="form-control me-2" type="search" placeholder="Search Book" aria-label="Search">
-          <button class="btn btn-outline-light" type="button">Search</button>
+          <a class="navbar-brand text-light fw-bolder">Welcome to <span class="text-info">EasyShop</span></a>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
       </div>
     </nav>
-    
+  </header>
+    <!-- product description part -->
+  <main class="main">
     <div class="row">
       <div class="col-md-9 col-lg-9 col-sm-7">
         <div id="all-products">
         </div>
       </div>
+      <!-- my cart table -->
       <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
         <div class="cart" id="my-cart">
           <table class="table">

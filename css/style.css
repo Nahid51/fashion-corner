@@ -2,6 +2,9 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+.nav-bg{
+  background-color: #e30047;
+}
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
